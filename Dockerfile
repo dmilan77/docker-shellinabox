@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:centos7.6.1810
 
 ENV SIAB_USERCSS="Colors:+/usr/share/shellinabox/color.css,Normal:-/usr/share/shellinabox/white-on-black.css,Monochrome:-/usr/share/shellinabox/monochrome.css" \
     SIAB_PORT=4200 \
